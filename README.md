@@ -32,9 +32,10 @@ A production-style design with a smaller cost-controlled portfolio profile that 
 - Managed Identity, Key Vault RBAC and Storage RBAC
 - Log Analytics, Application Insights, alerts and Azure Policy
 - Guarded validation, What-If, deployment and cleanup workflows
-- Deployment evidence captured before cost-controlled cleanup
+- Successful Sweden Central deployment with 32 verified live resources
+- 100% Azure Policy compliance before cost-controlled cleanup
 
-**Evidence:** successful live deployment, private connectivity checks, policy compliance and deployment records are included in the repository.
+**Evidence:** the repository includes a successful GitHub Actions run, live Azure verification and 20 screenshots. Front Door, WAF, disaster recovery, deployment slots and autoscaling remain part of the wider Bicep design; they were not enabled in the smaller deployment.
 
 ### [Nordic Shopping — Azure cloud transformation case study](https://github.com/Amin-Azad/nordic-shopping-cloud-transformation)
 
@@ -45,9 +46,10 @@ An end-to-end infrastructure and deployment-automation case study for a fictiona
 - Front Door, WAF, App Service, Azure SQL, Key Vault and private networking
 - GitHub Actions OIDC, protected environments and exact-commit deployment gates
 - Cost estimation, security assessment, migration planning and recovery design
-- Two controlled dev attempts, verified cleanup and regression checks based on the failures
+- Subscription readiness, region qualification and deployment regression checks
+- Two controlled dev attempts with incident records and verified cleanup
 
-**Status:** infrastructure code and CI validation are complete; production was not attempted. The dev attempts reached resource creation but stopped on subscription quota and SQL administrator errors.
+**Status:** Bicep validation, guarded deployment workflows, root-cause analysis and cleanup are documented. Two development attempts reached resource creation and exposed subscription quota and SQL administrator constraints. Production was not deployed.
 
 ### [Azure 3-Tier Infrastructure — Azure CLI and Bash](https://github.com/Amin-Azad/azure-3tier-cli-project)
 
@@ -65,16 +67,7 @@ A modular command-line deployment of a three-tier Azure environment.
 
 Specialization: cybersecurity, networking, system security and distributed systems.
 
-Relevant coursework:
-
-- Computer Security Incident Response (02192)
-- Data Security (02239)
-- Network Security (02233)
-- Logic for Security (02244)
-- Modern Cryptology (02255)
-- Distributed Real-Time Systems (02225)
-- System Integration (02291)
-- Process-Oriented & Event-Driven Software Systems (02268)
+Relevant coursework: Computer Security Incident Response (02192), Data Security (02239), Network Security (02233), Logic for Security (02244), Modern Cryptology (02255), Distributed Real-Time Systems (02225), System Integration (02291), and Process-Oriented & Event-Driven Software Systems (02268).
 
 My master's thesis, *Blockchain-Enabled Cybersecurity for Cyber-Ship Systems: A Risk Assessment Approach*, examined maritime cybersecurity resilience, incident response and risk assessment using ISO 27001/27005.
 
@@ -112,7 +105,7 @@ I am interested in junior and early-career roles such as:
 - Cloud Infrastructure Engineer
 - Junior DevOps Engineer
 - Cloud Security or Security Operations Engineer
-- Azure Operations, IT Infrastructure or Technical Support Engineer
+- Azure Operations or Platform Support Engineer
 
 I bring Microsoft Azure Administrator Associate certification, a cybersecurity-focused DTU master’s degree, previous IT support experience, and practical experience building, deploying, securing and troubleshooting Azure infrastructure. I am primarily interested in opportunities in Denmark and am also open to relevant roles in Germany.
 
