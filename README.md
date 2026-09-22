@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/azure-cloud-banner.svg" alt="Amin Azad — Azure Cloud, Platform Engineering and Security" width="100%" />
+  <img src="assets/banner.png" alt="Amin Azad — Azure Cloud, Platform Engineering and Security" width="100%" />
 </div>
 
 <p align="center">
